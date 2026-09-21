@@ -308,7 +308,7 @@ export default function Home() {
               </div>
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[4/3] rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
-                  <img src="https://placehold.co/800x600/111/fff?text=Setup+Workspace" alt="Setup" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+                  <img src="/images/setup-workspace.png" alt="Setup" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
                 </div>
               </div>
             </div>
@@ -321,7 +321,7 @@ export default function Home() {
               </div>
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[4/3] rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
-                  <img src="https://placehold.co/800x600/111/fff?text=Educational+Video" alt="Tutorials" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+                  <img src="/images/educational-video.png" alt="Tutorials" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
                 </div>
               </div>
             </div>
@@ -334,7 +334,7 @@ export default function Home() {
               </div>
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[4/3] rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
-                  <img src="https://placehold.co/800x600/111/fff?text=2D+Muscle+Map" alt="Heatmap" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+                  <img src="/images/2d-muscle-map.png" alt="Heatmap" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
                 </div>
               </div>
             </div>
@@ -347,7 +347,7 @@ export default function Home() {
               </div>
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[4/3] rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
-                  <img src="https://placehold.co/800x600/111/fff?text=Workout+History" alt="History" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+                  <img src="/images/workout-history.png" alt="History" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
                 </div>
               </div>
             </div>
