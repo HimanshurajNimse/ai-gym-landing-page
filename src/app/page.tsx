@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
-import { Cpu, Brain, Zap, Terminal, Github, Code2, ShieldCheck, Activity } from "lucide-react";
+import { Cpu, Brain, Zap, Terminal, Code2, ShieldCheck, Activity, GitBranch } from "lucide-react";
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -62,7 +62,7 @@ export default function Home() {
             <a href="#capabilities" className="hover:text-white transition-colors">Capabilities</a>
           </div>
           <div className="flex gap-6 items-center">
-            <button className="text-white/50 hover:text-white transition-colors"><Github className="w-5 h-5" /></button>
+            <button className="text-white/50 hover:text-white transition-colors"><GitBranch className="w-5 h-5" /></button>
             <button className="text-sm font-medium hover:opacity-70 transition-opacity">Launch App &rarr;</button>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function Home() {
                 Explore the Experience
               </button>
               <button className="px-8 py-4 flex items-center gap-2 border border-white/20 text-white rounded-full text-sm font-medium hover:bg-white/10 transition-colors duration-300">
-                <Github className="w-4 h-4" /> View Source Code
+                <GitBranch className="w-4 h-4" /> View Source Code
               </button>
             </motion.div>
           </motion.div>
@@ -307,8 +307,8 @@ export default function Home() {
                 <p className="text-xl text-white/50 font-light mb-8 max-w-md">Define your parameters. The engine instantly calibrates tracking nodes to match your chosen movement plane.</p>
               </div>
               <div className="w-full lg:w-1/2">
-                <div className="aspect-[4/3] rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
-                  <img src="/images/setup-workspace.png" alt="Setup" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+                <div className="rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
+                  <img src="/images/setup-workspace.png" alt="Setup" className="w-full h-auto rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
                 </div>
               </div>
             </div>
@@ -320,8 +320,8 @@ export default function Home() {
                 <p className="text-xl text-white/50 font-light mb-8 max-w-md">Watch high-quality tutorial videos embedded directly into your flow before your session begins.</p>
               </div>
               <div className="w-full lg:w-1/2">
-                <div className="aspect-[4/3] rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
-                  <img src="/images/educational-video.png" alt="Tutorials" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+                <div className="rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
+                  <img src="/images/educational-video.png" alt="Tutorials" className="w-full h-auto rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
                 </div>
               </div>
             </div>
@@ -333,8 +333,8 @@ export default function Home() {
                 <p className="text-xl text-white/50 font-light mb-8 max-w-md">Receive a glowing 2D anatomical heatmap showing exactly which muscle groups were targeted.</p>
               </div>
               <div className="w-full lg:w-1/2">
-                <div className="aspect-[4/3] rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
-                  <img src="/images/2d-muscle-map.png" alt="Heatmap" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+                <div className="rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
+                  <img src="/images/2d-muscle-map.png" alt="Heatmap" className="w-full h-auto rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
                 </div>
               </div>
             </div>
@@ -346,8 +346,8 @@ export default function Home() {
                 <p className="text-xl text-white/50 font-light mb-8 max-w-md">Every set and form mistake is securely logged locally. Track your volume and admire your achievements.</p>
               </div>
               <div className="w-full lg:w-1/2">
-                <div className="aspect-[4/3] rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
-                  <img src="/images/workout-history.png" alt="History" className="w-full h-full object-cover rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
+                <div className="rounded-[2rem] border border-white/10 bg-white/[0.02] p-4 group overflow-hidden">
+                  <img src="/images/workout-history.png" alt="History" className="w-full h-auto rounded-xl opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]" />
                 </div>
               </div>
             </div>
@@ -388,7 +388,7 @@ export default function Home() {
               Enter AI GYM &rarr;
             </button>
             <button className="px-10 py-4 flex items-center gap-2 border border-white/20 text-white rounded-full text-sm font-medium hover:bg-white/10 transition-colors duration-300">
-              <Github className="w-4 h-4" /> Star on GitHub
+              <GitBranch className="w-4 h-4" /> Star on GitHub
             </button>
           </div>
         </section>
@@ -402,7 +402,7 @@ export default function Home() {
                 The world's first fully localized, zero-latency computer vision coaching protocol. Train flawlessly with neural intelligence watching your every move.
               </p>
               <div className="flex gap-4">
-                <button className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors"><Github className="w-4 h-4" /></button>
+                <button className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors"><GitBranch className="w-4 h-4" /></button>
               </div>
             </div>
             
