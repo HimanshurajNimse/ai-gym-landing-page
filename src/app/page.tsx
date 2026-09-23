@@ -364,7 +364,7 @@ export default function Home() {
             <iframe 
               width="100%" 
               height="100%" 
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=Placeholder" 
+              src="https://www.youtube.com/embed/7QdPTtIl6Fk" 
               title="Demo" 
               frameBorder="0" 
               allowFullScreen
