@@ -62,7 +62,7 @@ export default function Home() {
             <a href="#capabilities" className="hover:text-white transition-colors">Capabilities</a>
           </div>
           <div className="flex gap-6 items-center">
-            <button className="text-white/50 hover:text-white transition-colors"><GitBranch className="w-5 h-5" /></button>
+            <a href="https://github.com/HimanshurajNimse/AI-Gym-Coach" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white transition-colors"><GitBranch className="w-5 h-5" /></a>
             <a href="https://ai-gym-coach-himan.streamlit.app" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:opacity-70 transition-opacity">Launch App &rarr;</a>
           </div>
         </div>
@@ -102,9 +102,9 @@ export default function Home() {
               <a href="https://ai-gym-coach-himan.streamlit.app" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-white text-black rounded-full text-sm font-medium hover:scale-105 transition-transform duration-300">
                 Explore the Experience
               </a>
-              <button className="px-8 py-4 flex items-center gap-2 border border-white/20 text-white rounded-full text-sm font-medium hover:bg-white/10 transition-colors duration-300">
+              <a href="https://github.com/HimanshurajNimse/AI-Gym-Coach" target="_blank" rel="noopener noreferrer" className="px-8 py-4 flex items-center gap-2 border border-white/20 text-white rounded-full text-sm font-medium hover:bg-white/10 transition-colors duration-300">
                 <GitBranch className="w-4 h-4" /> View Source Code
-              </button>
+              </a>
             </motion.div>
           </motion.div>
         </section>
@@ -387,9 +387,9 @@ export default function Home() {
             <a href="https://ai-gym-coach-himan.streamlit.app" target="_blank" rel="noopener noreferrer" className="px-10 py-4 rounded-full bg-white text-black font-medium text-sm hover:scale-105 transition-transform duration-300">
               Enter AI GYM &rarr;
             </a>
-            <button className="px-10 py-4 flex items-center gap-2 border border-white/20 text-white rounded-full text-sm font-medium hover:bg-white/10 transition-colors duration-300">
+            <a href="https://github.com/HimanshurajNimse/AI-Gym-Coach" target="_blank" rel="noopener noreferrer" className="px-10 py-4 flex items-center gap-2 border border-white/20 text-white rounded-full text-sm font-medium hover:bg-white/10 transition-colors duration-300">
               <GitBranch className="w-4 h-4" /> Star on GitHub
-            </button>
+            </a>
           </div>
         </section>
 
